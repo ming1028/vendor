@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '540fa207b66b2b4c3118a79f368c4c76a2062791',
+        'reference' => '06b2bc847d677d9d6bd05f327dd27b81581d8f27',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '540fa207b66b2b4c3118a79f368c4c76a2062791',
+            'reference' => '06b2bc847d677d9d6bd05f327dd27b81581d8f27',
             'dev_requirement' => false,
         ),
         'aliyunmq/mq-http-sdk' => array(
@@ -53,6 +53,15 @@
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
             'reference' => '83260bb50b8fc753c72d14dc1621a2dac31877ee',
+            'dev_requirement' => false,
+        ),
+        'overtrue/pinyin' => array(
+            'pretty_version' => '4.0.8',
+            'version' => '4.0.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../overtrue/pinyin',
+            'aliases' => array(),
+            'reference' => '04bdb4d33d50e8fb1aa5a824064c5151c4b15dc2',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(

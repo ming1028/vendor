@@ -1,5 +1,6 @@
 {
     "require": {
-        "aliyunmq/mq-http-sdk": "1.0.3.1"
+        "aliyunmq/mq-http-sdk": "1.0.3.1",
+        "overtrue/pinyin": "^4.0"
     }
 }
