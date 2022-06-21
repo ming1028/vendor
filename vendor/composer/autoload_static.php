@@ -4,14 +4,13 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit4c5f31fce73981415ca29c333233ea14
+class ComposerStaticInit7a9a988c88df14e754e83003da35f4d2
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        'dc1275c308c5b416beb314b6317daca2' => __DIR__ . '/..' . '/overtrue/pinyin/src/const.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -19,10 +18,6 @@ class ComposerStaticInit4c5f31fce73981415ca29c333233ea14
         array (
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
-        ),
-        'O' => 
-        array (
-            'Overtrue\\Pinyin\\' => 16,
         ),
         'M' => 
         array (
@@ -39,16 +34,12 @@ class ComposerStaticInit4c5f31fce73981415ca29c333233ea14
     public static $prefixDirsPsr4 = array (
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
-        ),
-        'Overtrue\\Pinyin\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/overtrue/pinyin/src',
         ),
         'MQ\\' => 
         array (
@@ -75,9 +66,9 @@ class ComposerStaticInit4c5f31fce73981415ca29c333233ea14
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit4c5f31fce73981415ca29c333233ea14::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit4c5f31fce73981415ca29c333233ea14::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit4c5f31fce73981415ca29c333233ea14::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7a9a988c88df14e754e83003da35f4d2::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7a9a988c88df14e754e83003da35f4d2::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7a9a988c88df14e754e83003da35f4d2::$classMap;
 
         }, null, ClassLoader::class);
     }
